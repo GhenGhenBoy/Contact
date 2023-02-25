@@ -402,8 +402,9 @@ button {
     padding: 50px 30px;
     background-color: rgb(245, 245, 245);
     height: 90vh;
-    max-width: 60%;
+    max-width: 100%;
     margin-right: 0px;
+    margin-bottom: 3rem;
     
     
 }
@@ -633,11 +634,15 @@ p:last-child {
         max-width: 50%;
 }}
 
-@media (min-width: 450px) {
+@media (min-width: 550px) {
     .meg {
-        padding: 50px 30px;
-        max-width: 100%;
-        margin-bottom: 3rem;
+    padding: 50px 30px;
+    background-color: rgb(245, 245, 245);
+    height: 90vh;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-bottom: 3rem;
+
     }
     
 }
